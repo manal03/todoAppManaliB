@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", serif;
+    user-select: none;
+}
+body{
+    background-color: #ffe0dd;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: #dae0ea;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 240px;
+    border-radius: 5px;  
+    text-align: center;
+    font-size: 20px;
+}
+#view-logged-in{
+    display:none;
+}
+button{
+    color: #FDFDFD;
+    background-color: #48a2ac;
+    padding: 10px;
+    width: 240px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    font-size: 20px;
+}
+#addBtn:hover{
+    background-color: #c3a487;
+}
+ul{
+    max-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+ul li{
+    background-color: #FFFDF8;
+    flex-direction: space-between;
+    padding: 10px;
+    margin: 5px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+}
+
+ul li:hover{
+    background-color: #FFECC7;
+    cursor: pointer;
+}
+h3{
+    cursor: pointer;
+}
